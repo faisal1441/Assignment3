@@ -2,11 +2,11 @@ import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
 import Logo1 from "@/app/assett/Logo1.png";
-export default function Her0() {
+export default function Hero() {
 
   return (
     <>
-    <section className='py-[140px] px-[220px] top-[92px] bg-[#043873] text-[#FFFFFF] '>
+    <section className='w-[1920px] h-[829px] ml-[1px] py-[140px] px-[220px] bg-[#043873] flex items-center text-[#FFFFFF] '>
             
             <div className='w-[656px] h-[361px]'>
             <div className='w-[656px] h-[238px]'>
@@ -23,7 +23,7 @@ export default function Her0() {
 </section>
           {/*Project Management part*/}
  
- <section className="w-[1920px] h-[1588px] ml-[1px] py-[140px] px-[220px]  bg-white flex  text-black ">
+ <section className="w-[1920px] h-[829px] ml-[1px] py-[140px] px-[220px]  bg-white flex  text-black ">
          <div className="w-[672px] h-[411px] gap-[60px]  flex flex-col justify-between">
         
           <div className=" flex flex-col flex-nowrap items-center w-[656px] h-[238px] gap-6">
@@ -47,21 +47,22 @@ export default function Her0() {
 
     {/*Work Together*/}
 
-      <section className="w-[1480px] h-[661px] flex items-center gap-[100px] mb-96">
+      <section className="w-[1920px] h-[829px] flex items-center justify-center">
+      <div className="w-[1480px] h-[661px] flex items-center gap-[100px]">
         <div className="flex-1 bg-white">
-          <Image src={Logo1} alt={Logo1} width={710} height={661}></Image>
+          <Image src={Logo1} alt={'Logo1'} width={710} height={661}></Image>
         </div>
         <div className="flex-1 w-[670px] h-[661px] flex flex-col items-start justify-center gap-6">
-          <div className="w-[670px] h-[294px]">
+          <div className="w-[670px] h-[284px]">
             <h1 className="w-[670] h-[87px] text-7xl font-bold leading-[87.14px] tracking-[-2%]">Work together</h1>
             <p className="w-[670px] h-[60px] text-lg font-normal leading-[30px] tracking-[-2%] mt-20">With whitepace, share your notes with your colleagues and collaborate on them.
                 You can also publish a note to the internet and share the URL with others.</p>
           </div>
           <div className="w-[186px] h-[63px] rounded-md py-5 px-10 bg-[#4F9CF9] hover:bg-[#043873] hover:text-[#4F9CF9] hover:border-white hover:border-2">
-            <button className="w-[82px] h-[23px] text-lg font-medium leading-[23px] tracking-[-2%] flex items-center justify-center text-white">Try it now</button>
+            <button className="w-[82px] h-[23px] text-lg font-medium leading-6 tracking-[-2%] flex items-center justify-center text-white">Try it now</button>
           </div>
         </div>
-           
+           </div>
 
       
 
@@ -105,7 +106,7 @@ export default function Her0() {
           </div>
           <div>
             <button className="w-[171px] h-[63px] rounded-lg py-5 px-5 bg-[#4F9CF9] gap-[10px] text-[18px] font-medium leading-[23px] tracking-[-2%] text-white hover:bg-[#043873] hover:text-[#4F9CF9] hover:border-white hover:border-2">
-            Let’s Go->
+            {'Let’s Go->'}
             </button>
           </div>
         </div>
